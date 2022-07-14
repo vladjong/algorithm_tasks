@@ -1,6 +1,5 @@
 class Solution {
 public:
-    
     void permute(vector<vector<int>>& result, vector<int>& subset, const vector<int>& nums) {
         if (subset.size() == nums.size()) {
             result.push_back(subset);
